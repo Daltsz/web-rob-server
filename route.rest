@@ -1,0 +1,10 @@
+###
+GET http://localhost:3000/led-blink
+###
+POST http://localhost:3000/led-blink
+Content-Type: application/json
+
+{
+    "string": "LED-LINK"
+}
+###
